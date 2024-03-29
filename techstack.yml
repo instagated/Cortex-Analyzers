@@ -1,0 +1,571 @@
+repo_name: instagated/Cortex-Analyzers
+report_id: 2bffda70ffe6938da910867de9c179b9
+version: 0.1
+repo_type: Public
+timestamp: '2024-03-29T20:25:30+00:00'
+requested_by: jeromeleonard
+provider: github
+branch: master
+detected_tools_count: 44
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers
+  detection_source: Repo Metadata
+- name: Jinja
+  description: Full featured template engine for Python
+  website_url: https://palletsprojects.com/p/jinja/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/2303/New_Project__20_.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/responders/RT4/requirements.txt
+  detection_source: responders/RT4/requirements.txt
+  last_updated_by: Michael Davis
+  last_updated_on: 2019-10-10 13:34:17.000000000 Z
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers
+  detection_source: Repo Metadata
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/MISPWarningLists/requirements.txt
+  detection_source: analyzers/MISPWarningLists/requirements.txt
+  last_updated_by: Arcuri Davide
+  last_updated_on: 2020-04-06 09:40:45.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers
+  detection_source: Repo Metadata
+- name: Drone.io
+  description: Open source continuous integration platform built on Docker
+  website_url: https://drone.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/668/R_wMcCqN_400x400.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/.drone.yml
+  detection_source: ".drone.yml"
+  last_updated_by: To-om
+  last_updated_on: 2020-08-03 12:57:45.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers
+  detection_source: Repo Metadata
+- name: Logstash
+  description: Collect, Parse, &amp; Enrich Data
+  website_url: http://logstash.net/
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/1683/preview.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/Elasticsearch/requirements.txt
+  detection_source: analyzers/Elasticsearch/requirements.txt
+  last_updated_by: nmprokop
+  last_updated_on: 2020-10-09 16:17:18.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/responders/Velociraptor/requirements.txt
+  detection_source: responders/Velociraptor/requirements.txt
+  last_updated_by: Wes Lambert
+  last_updated_on: 2020-06-23 02:57:41.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/EmlParser/requirements.txt
+  detection_source: analyzers/EmlParser/requirements.txt
+  last_updated_by: Jérôme Leonard
+  last_updated_on: 2021-07-21 13:22:30.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/Elasticsearch/requirements.txt
+  detection_source: analyzers/Elasticsearch/requirements.txt
+  last_updated_by: nmprokop
+  last_updated_on: 2020-10-09 16:17:18.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers
+  detection_source: Repo Metadata
+- name: IMAPClient
+  description: Easy-to-use, Pythonic and complete IMAP client library
+  package_url: https://pypi.org/project/IMAPClient
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/FileInfo/requirements.txt
+  detection_source: analyzers/FileInfo/requirements.txt
+  last_updated_by: Jérôme Leonard
+  last_updated_on: 2018-04-18 20:26:03.000000000 Z
+- name: PyJWT
+  description: JSON Web Token implementation in Python
+  package_url: https://pypi.org/project/PyJWT
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19883/default_3863c7bb51d307217c188e059f67ca417c51efe3.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/Maltiverse/requirements.txt
+  detection_source: analyzers/Maltiverse/requirements.txt
+  last_updated_by: Matteo Rosi
+  last_updated_on: 2019-03-17 16:28:42.000000000 Z
+- name: bs4
+  description: Dummy package for Beautiful Soup
+  package_url: https://pypi.org/project/bs4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19906/default_2aeed05332f0410b54817405c7e8e202a7e763cf.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/EmlParser/requirements.txt
+  detection_source: analyzers/EmlParser/requirements.txt
+  last_updated_by: Jérôme Leonard
+  last_updated_on: 2018-09-17 14:19:03.000000000 Z
+- name: cloudscraper
+  description: A Python module to bypass Cloudflare's anti-bot page
+  package_url: https://pypi.org/project/cloudscraper
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/TalosReputation/requirements.txt
+  detection_source: analyzers/TalosReputation/requirements.txt
+  last_updated_by: Ömer Erdem
+  last_updated_on: 2020-09-16 15:59:14.000000000 Z
+- name: cryptography
+  description: Cryptography is a package which provides cryptographic recipes and
+    primitives to Python developers
+  package_url: https://pypi.org/project/cryptography
+  license: BSD-3-Clause,Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19850/default_db2ab2702f70e20c272f6ce65251108fb2b8f1ea.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/responders/Velociraptor/requirements.txt
+  detection_source: responders/Velociraptor/requirements.txt
+  last_updated_by: Wes Lambert
+  last_updated_on: 2020-06-23 02:57:41.000000000 Z
+- name: diskcache
+  description: Disk Cache -- Disk and file backed persistent cache
+  package_url: https://pypi.org/project/diskcache
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20549/default_cde277f9f5ddb25ccf86d553790fb97f5a8f825c.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/TorBlutmagie/requirements.txt
+  detection_source: analyzers/TorBlutmagie/requirements.txt
+  last_updated_by: srilumpa
+  last_updated_on: 2017-12-18 10:22:22.000000000 Z
+- name: dnspython
+  description: DNS toolkit
+  package_url: https://pypi.org/project/dnspython
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20249/default_47b8ee8db82e43d9eef35923435bd8cc855f3a1b.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/DNSSinkhole/requirements.txt
+  detection_source: analyzers/DNSSinkhole/requirements.txt
+  last_updated_by: garanews
+  last_updated_on: 2019-03-01 08:17:45.000000000 Z
+- name: future
+  description: Clean single-source support for Python 3 and 2
+  package_url: https://pypi.org/project/future
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19839/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/Abuse_Finder/requirements.txt
+  detection_source: analyzers/Abuse_Finder/requirements.txt
+  last_updated_by: Jérôme Leonard
+  last_updated_on: 2020-02-11 17:06:41.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/responders/Gmail/requirements.txt
+  detection_source: responders/Gmail/requirements.txt
+  last_updated_by: David Strassegger
+  last_updated_on: 2021-02-26 19:26:20.000000000 Z
+- name: google-auth-oauthlib
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth-oauthlib
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20240/default_8a23a3884b3073b5e1695e2320e46529e60882b3.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/responders/Gmail/requirements.txt
+  detection_source: responders/Gmail/requirements.txt
+  last_updated_by: David Strassegger
+  last_updated_on: 2021-02-26 19:26:20.000000000 Z
+- name: grpcio-tools
+  description: Protobuf code generator for gRPC
+  package_url: https://pypi.org/project/grpcio-tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20003/default_87268cab0d3a3b3acf3aa0576d4b114b8e4c2521.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/responders/Velociraptor/requirements.txt
+  detection_source: responders/Velociraptor/requirements.txt
+  last_updated_by: weslambert
+  last_updated_on: 2020-07-25 13:31:59.000000000 Z
+- name: ipaddress
+  description: IPv4/IPv6 manipulation library
+  package_url: https://pypi.org/project/ipaddress
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19942/default_aacb529ceff756b62765790d8d6787a041d514ff.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/FireHOLBlocklists/requirements.txt
+  detection_source: analyzers/FireHOLBlocklists/requirements.txt
+  last_updated_by: Jerome Leonard
+  last_updated_on: 2017-05-17 03:29:41.000000000 Z
+- name: ldap3
+  description: A strictly RFC 4510 conforming LDAP V3 pure Python client library
+  package_url: https://pypi.org/project/ldap3
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20218/default_d4dd0466552a9776ca8535b869e22a3362790c94.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/LdapQuery/requirements.txt
+  detection_source: analyzers/LdapQuery/requirements.txt
+  last_updated_by: dadokkio
+  last_updated_on: 2021-01-15 15:41:20.000000000 Z
+- name: netaddr
+  description: A network address manipulation library for Python
+  package_url: https://pypi.org/project/netaddr
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19938/default_33cd769f45954740da26824e035edca16b8b6b14.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/Nessus/requirements.txt
+  detection_source: analyzers/Nessus/requirements.txt
+  last_updated_by: Drew Stinnett
+  last_updated_on: 2017-08-25 10:20:17.000000000 Z
+- name: oletools
+  description: Python tools to analyze security characteristics of MS Office and OLE
+    files
+  package_url: https://pypi.org/project/oletools
+  version: '0.52'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/FileInfo/requirements.txt
+  detection_source: analyzers/FileInfo/requirements.txt
+  last_updated_by: Jérôme Leonard
+  last_updated_on: 2018-06-08 15:59:50.000000000 Z
+- name: pefile
+  description: Python PE parsing module
+  package_url: https://pypi.org/project/pefile
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20601/default_705055e61b43e314c99bd16582ed1fac9638127e.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/FileInfo/requirements.txt
+  detection_source: analyzers/FileInfo/requirements.txt
+  last_updated_by: Nils Kuhnert
+  last_updated_on: 2018-03-29 06:35:21.000000000 Z
+- name: progressbar2
+  description: A Python Progressbar library to provide visual
+  package_url: https://pypi.org/project/progressbar2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19984/default_ccb381b493daf0d966e015380e1894fdbc637ad3.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/Virusshare/requirements.txt
+  detection_source: analyzers/Virusshare/requirements.txt
+  last_updated_by: Jerome Leonard
+  last_updated_on: 2017-05-05 09:02:11.000000000 Z
+- name: psycopg2-binary
+  description: Psycopg2 - Python-PostgreSQL Database Adapter
+  package_url: https://pypi.org/project/psycopg2-binary
+  license: BSD-3-Clause-Attribution
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/MISPWarningLists/requirements.txt
+  detection_source: analyzers/MISPWarningLists/requirements.txt
+  last_updated_by: Arcuri Davide
+  last_updated_on: 2020-04-07 08:34:45.000000000 Z
+- name: py2neo
+  description: Python client library and toolkit for Neo4j
+  package_url: https://pypi.org/project/py2neo
+  version: 2021.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/MalwareClustering/requirements.txt
+  detection_source: analyzers/MalwareClustering/requirements.txt
+  last_updated_by: Jérôme Leonard
+  last_updated_on: 2021-07-27 09:51:41.000000000 Z
+- name: pymisp
+  description: Python API for MISP
+  package_url: https://pypi.org/project/pymisp
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/MISP/requirements.txt
+  detection_source: analyzers/MISP/requirements.txt
+  last_updated_by: Antoine
+  last_updated_on: 2017-03-02 09:39:51.000000000 Z
+- name: python-dateutil
+  description: Extensions to the standard Python datetime module
+  package_url: https://pypi.org/project/python-dateutil
+  license: NRL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/FireHOLBlocklists/requirements.txt
+  detection_source: analyzers/FireHOLBlocklists/requirements.txt
+  last_updated_by: Saad Kadhi
+  last_updated_on: 2017-11-05 10:43:56.000000000 Z
+- name: python-magic
+  description: File type identification using libmagic
+  package_url: https://pypi.org/project/python-magic
+  version: 0.4.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20245/default_79c7a01488eebdf30ca22b7316d9f77bbe7fad8b.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/MalwareClustering/requirements.txt
+  detection_source: analyzers/EmlParser/requirements.txt
+  last_updated_by: Jérôme Leonard
+  last_updated_on: 2021-02-25 11:05:00.000000000 Z
+- name: pytz
+  description: World timezone definitions, modern and historical
+  package_url: https://pypi.org/project/pytz
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/Elasticsearch/requirements.txt
+  detection_source: analyzers/Elasticsearch/requirements.txt
+  last_updated_by: garanews
+  last_updated_on: 2021-01-15 14:51:25.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/AbuseIPDB/requirements.txt
+  detection_source: analyzers/AbuseIPDB/requirements.txt
+  last_updated_by: Matteo Lodi
+  last_updated_on: 2019-01-03 14:02:25.000000000 Z
+- name: sendgrid
+  description: Twilio SendGrid library for Python
+  package_url: https://pypi.org/project/sendgrid
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20325/default_0c9409de2ef424482d14f84cb95c9dab5c399c85.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/responders/SendGrid/requirements.txt
+  detection_source: responders/SendGrid/requirements.txt
+  last_updated_by: colin-stubbs
+  last_updated_on: 2020-04-03 15:11:28.000000000 Z
+- name: shodan
+  description: Python library and command-line utility for Shodan
+  package_url: https://pypi.org/project/shodan
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/Shodan/requirements.txt
+  detection_source: analyzers/Shodan/requirements.txt
+  last_updated_by: Nabil Adouani
+  last_updated_on: 2017-11-06 10:14:43.000000000 Z
+- name: simplejson
+  description: Simple, fast, extensible JSON encoder/decoder for Python
+  package_url: https://pypi.org/project/simplejson
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19859/default_4a8a8fdc10130068bf295812b98e9b72fb42fe70.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/ThreatGrid/requirements.txt
+  detection_source: analyzers/ThreatGrid/requirements.txt
+  last_updated_by: Jérôme Leonard
+  last_updated_on: 2020-07-02 07:54:08.000000000 Z
+- name: six
+  description: Python 2 and 3 compatibility utilities
+  package_url: https://pypi.org/project/six
+  version: 1.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19827/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/OpenCTI/requirements.txt
+  detection_source: analyzers/OpenCTI/requirements.txt
+  last_updated_by: MOA-AMR-COSSI
+  last_updated_on: 2020-03-20 20:49:28.000000000 Z
+- name: splunk-sdk
+  description: The Splunk Software Development Kit for Python
+  package_url: https://pypi.org/project/splunk-sdk
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/Splunk/requirements.txt
+  detection_source: analyzers/Splunk/requirements.txt
+  last_updated_by: LmR
+  last_updated_on: 2019-09-19 07:46:00.000000000 Z
+- name: tld
+  description: Extract the top-level domain
+  package_url: https://pypi.org/project/tld
+  license: MPL-1.1,GPL-2.0-only
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20613/default_44f6b19957acfc2dee5027f2cd386fe2ccd17c6f.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/MISPWarningLists/requirements.txt
+  detection_source: analyzers/MISPWarningLists/requirements.txt
+  last_updated_by: Nils Kuhnert
+  last_updated_on: 2017-12-27 08:24:11.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/responders/Gmail/requirements.txt
+  detection_source: responders/Gmail/requirements.txt
+  last_updated_by: David Strassegger
+  last_updated_on: 2021-02-26 19:26:20.000000000 Z
+- name: yara-python
+  description: Python interface for YARA
+  package_url: https://pypi.org/project/yara-python
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/instagated/Cortex-Analyzers/blob/master/analyzers/Malpedia/requirements.txt
+  detection_source: analyzers/Malpedia/requirements.txt
+  last_updated_by: garanews
+  last_updated_on: 2018-01-18 10:16:41.000000000 Z
